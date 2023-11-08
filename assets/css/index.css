@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+    font-family: 'PT Sans', sans-serif;
+}
+
+:root{
+    --color1: #010101;
+    --color2: #fcdb00;
+    --color3: #ffffff;
+    --color5: #313841;
+    --color6: #555555;
+    --phcolor: #898989;
+}
+
+.header_part{
+    background: var(--color2);
+}
+
+/* ==== nav part style start here ==== */
+nav{
+    background: rgba(0, 0, 0, .20);  
+}
+.nav-link{
+    font-size: 22px;
+    color: var(--color1);
+    font-weight: bolder;
+    transition: .4s;
+}
+
+.nav-link:hover{
+    color: var(--color3) !important;
+}
+
+/* ==== nav part style start here ==== */
+
+/* ==== carousel part style start here ==== */
+
+.carousel-inner .active{
+    background: var(--color2);
+}
+
+.carousel-item{
+    height: 80vh;
+}
+.carousel_con_1{
+    padding-top: 100px;
+}
+.carousel_con_1 h1{
+    color: var(--color1);
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.carousel_con_1 h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color5);
+    padding-right: 250px;
+}
+.carousel_con_1 p{
+    font-size: 16px;
+    color: var(--color6);
+    padding-bottom: 20px;
+    padding-right: 250px;
+}
+
+.carousel_con_2 img{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+/* ==== carousel part style end here ==== */
+
+
+/* ==== feature part style start here ==== */
+
+.feature_title p{
+    padding: 0px 200px;
+}
+
+.feature_con h1{
+    font-size: 22px;
+    color: var(--color1);
+}
+
+.feature_con p{
+    font-size: 16px;
+    color: var(--color6);
+}
+
+/* ==== feature part style end here ==== */
+
+
+/* ==== contact part style start here ==== */
+.contact_part{
+    background: var(--color1);
+}
+
+.contact_title p{
+    padding: 0px 200px;
+    font-size: 20px;
+    color: var(--phcolor);
+}
+.contact_title h1{
+    font-size: 32px;
+    color: var(--color2);
+}
+
+.contact_form{
+    padding: 0px 200px;
+}
+.contact_form .btn{
+    font-size: 22px;
+    font-weight: 600;
+}
+#email{
+    width: 70%;
+}
+
+.contact_icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    color: var(--color1);
+    background-color: var(--color2);
+    transition: .4s;
+}
+
+.contact_icon i:hover{
+    color: var(--color1);
+    background-color: var(--color3);
+}
+
+/* ==== contact part style end here ==== */
+
+/* ==== footer part style starts here ==== */
+footer{
+    background-color: var(--color1);
+}
+.location h5{
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: var(--color3);
+}
+.location p{
+    font-size: 16px;
+    line-height: 4px;
+    color: var(--color3);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--color3) !important;
+}
+
+footer a:hover{
+    text-decoration: underline !important;
+}
+
+
+/* ==== footer part style ends here ==== */
